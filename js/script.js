@@ -19,7 +19,7 @@ L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
 function popUp(feature,layer){ layer.bindPopup(feature.properties.Street); }
 
 
-$.getJSON('/js/paths.json',function(data){
+$.getJSON('js/paths.json',function(data){
         window.data = data;
         var geojsonLayer = L.geoJson(data.features, {
                 style: {color: "rgba(157, 50, 180, 0.7)"},
@@ -37,7 +37,7 @@ function pathMarkers(feature, layer) {
 
 
 
-$.getJSON('/js/racks.json',function(data){
+$.getJSON('js/racks.json',function(data){
 	
 	var racksGeojsonLayer = L.geoJson(data.features, {
     onEachFeature: makeMarkers,
