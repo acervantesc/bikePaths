@@ -1,0 +1,103 @@
+/*comments */
+
+body,html {
+  padding: 20px;
+  margin: 0;
+  height: 100%;
+	font-family: sans-serif, helvetica;
+	text-align: left;
+	line-height: 1.4;
+	
+}
+#map {
+  height: 600px;
+}
+
+
+#sideBar{
+	float: fixed;
+	height: 600px;
+	width: 30%;
+	position: absolute;
+	background: rgba(205, 205, 205, 0.9);
+	z-index: 1;
+	box-sizing: border-box;
+
+}
+
+#racks{
+
+	color:rgba(119, 123, 238, 0.9);
+}
+
+
+
+h1 {
+	font-size: 30px;
+	padding-top: 50px;
+	border: 2px;
+	z-index: 1;
+}
+
+
+h3 {
+	margin: 20px;
+	padding-top: 90px;
+	border: 2px;
+	z-index: 1;
+}
+
+
+p {
+	font-size: 18px;
+	margin: 20px;
+	padding: 1px;
+	border: 5px;
+	
+}
+
+
+li {
+	font-size: 15px;
+	padding: 5px;
+	border: 5px;
+	display: inline; 
+
+}
+
+
+form{
+	
+	font-size: 18px;
+	margin-left: 10px;
+	padding: 5px;
+	display: inline-block; 
+}
+
+label{
+	
+	font-size: 18px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	display: inline-block; 
+}
+
+button{
+
+	font-size: 18px;
+	margin-left: 10px;
+	border-radius: 5px;
+
+
+}
+
+select{
+
+	margin-left: 10px;
+	padding: 5px;
+	font-size: 15px;
+	border: 5px;
+
+
+}
